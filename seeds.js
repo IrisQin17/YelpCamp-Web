@@ -5,17 +5,20 @@ var mongoose    = require("mongoose"),
 		{
 			name: "Salmon Creek",
 		 	image: "https://images.unsplash.com/photo-1475483768296-6163e08872a1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
-			description: "Beautiful and clean!Beautiful and clean!Beautiful and clean!Beautiful and clean!Beautiful and clean!Beautiful and clean!Beautiful and clean!Beautiful and clean!Beautiful and clean!Beautiful and clean!Beautiful and clean!"
+			description: "Beautiful and clean!Beautiful and clean!Beautiful and clean!Beautiful and clean!Beautiful and clean!Beautiful and clean!Beautiful and clean!Beautiful and clean!Beautiful and clean!Beautiful and clean!Beautiful and clean!",
+			price: 550
 		},
 		{
 			name: "Granite Hill", 
 		 	image:"https://images.unsplash.com/photo-1471115853179-bb1d604434e0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1559&q=80",
-			description: "High hill and fresh air!High hill and fresh air!High hill and fresh air!High hill and fresh air!High hill and fresh air!High hill and fresh air!High hill and fresh air!High hill and fresh air!High hill and fresh air!"
+			description: "High hill and fresh air!High hill and fresh air!High hill and fresh air!High hill and fresh air!High hill and fresh air!High hill and fresh air!High hill and fresh air!High hill and fresh air!High hill and fresh air!",
+			price: 329
 		},
 		{
 			name: "Mountain Goat's Rest",
 		 	image:"https://images.unsplash.com/photo-1496947850313-7743325fa58c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
-			description: "Splendid rest!Splendid rest!Splendid rest!Splendid rest!Splendid rest!Splendid rest!Splendid rest!Splendid rest!Splendid rest!Splendid rest!Splendid rest!Splendid rest!"
+			description: "Splendid rest!Splendid rest!Splendid rest!Splendid rest!Splendid rest!Splendid rest!Splendid rest!Splendid rest!Splendid rest!Splendid rest!Splendid rest!Splendid rest!",
+			price: 499
 		}
 	];
 	
