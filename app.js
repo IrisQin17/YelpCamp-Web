@@ -23,7 +23,11 @@ mongoose.set('useCreateIndex', true);
 mongoose.set('useUnifiedTopology', true);
 
 var url = process.env.DATABASEURL || "mongodb://localhost/yelp_camp_v12";
-mongoose.connect(url);
+mongoose.connect(url).then(() => {
+	console.log('Connectd to DB!');
+}).catch(err => {
+	console.log('Error:', err.message);
+});
 
 app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({extended: true}));
@@ -31,7 +35,7 @@ app.use(express.static(__dirname + "/public"));
 app.use(methodOverride("_method"));
 app.use(flash());
 
-seedDB(); // seed the database
+// seedDB(); // seed the database
 
 // PASSPORT CONFIG
 app.use(require("express-session")({
